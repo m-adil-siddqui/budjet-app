@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budjet app</title>
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+     crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/style.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+                <div class="header">
+                    <h2>Budjet App</h2>
+                </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="budget-feedback alert alert-danger"></div>
+                    <div class="form1">
+                        <form  id="budget-form">
+                            <div class="form-group">
+                                <label for="">Please Enter Your Budget</label>
+                                <input type="number" class="form-control" id="budget-input">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" id="budget-submit" class="btn btn-success">Calculate</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="expensefeedback alert alert-danger"></div>
+                    <div class="form2">
+                            <form id="expense-form">
+                                <div class="form-group">
+                                    <label for="">Please Enter Your Expense</label>
+                                    <input type="text" class="form-control" id="expense-input">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Please Enter Expense Amount</label>
+                                        <input type="number" class="form-control" id="amount-input">
+                                    </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-success">Add Expense</button>
+                                </div>
+                            </form>
+                        </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-4 m3">
+                            <h3 class="m-content-title">Budjet</h3>
+                            <span class="budget-icon"><i class="fas fa-money-bill-alt"></i></span>
+                            <h4 class="expense"><span>$</span><sapn id="budget-amount"> 0</span></h4>
+                        </div>
+                        <div class="col-4 m3">
+                                <h3 class="m-content-title">Expense</h3>
+                                <span class="expense-icon"><i class="far fa-credit-card"></i></span>
+                                <h4 class="expense"><span>$ </span><span id="budget-expense">0</span></h4>
+                        </div>
+                        <div class="col-4 m3">
+                                <h3 class="m-content-title">Balance</h3>
+                                <span class="balance-icon"><i class="fas fa-dollar-sign"></i></span>
+                                <h4 class="expense"><span>$ </span><span id="balance">0</span></h4>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div id="expense-list">
+                        <div class="col-4">
+                            
+                             <h5 class="list-item">expense title</h5> 
+                             <!-- <span id="title" class="ex-content"></span> -->
+                            
+                        </div>
+                        <div class="col-4">
+                             
+                                <h5 class="list-item">expense value</h5>
+                                <!-- <span id="amount" class="ex-content"></span> -->
+                            
+                        </div>
+                        <div class="col-4">
+                            
+                                <h5 class="list-item">action</h5>
+                                <!-- <p id="action"></p> -->
+                        </div>
+                        </div>
+                    </div>
+                   
+                    <div class="expense-list" id="expense-list-data">
+                       
+                            
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+    
+
+
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/app.js"></script>
+</body>
+</html>

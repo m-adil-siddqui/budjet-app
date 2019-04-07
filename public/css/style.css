@@ -1,0 +1,125 @@
+
+.wrapper
+{
+    background: rgba(1, 50, 67, 1);
+    height: 664px;
+}
+.wrapper .header{
+    border-bottom: 1px solid wheat;
+    background: re;
+    padding-bottom: 5px;;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+.wrapper .header h2{
+    color: #fff;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+.wrapper .form1{
+    margin: 15px 0 15px 0;
+    border: 1px solid #ff6600;
+    padding: 25px;
+}
+.wrapper .form2{
+    border: 1px solid #ff6600;
+    padding: 25px;
+}
+label{
+    color: #fff;
+    font-size: 18px;
+}
+.wrapper .container .form-group button{
+    background: #ff6600;
+    border: 1px solid #ff6600;
+    border-radius: 0;
+}
+input[type=number]{
+    border: none;
+    border-radius: 0;
+}
+
+.wrapper .m-content-title{
+    color: #fff;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+.wrapper .budget-icon{
+    color: #fff;
+    font-size: 38px;
+}
+.wrapper .balance-icon{
+    color: #fff;
+    font-size: 38px;
+}
+.wrapper .expense-icon{
+    color: #fff;
+    font-size: 38px;
+    
+}
+.wrapper .expense{
+    color: #fff;
+    margin-top: 1.5em;
+    font-size: 30px;
+}
+
+.m3{
+    margin-top: 15px;
+    
+}
+
+#expense-list{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.list-item{
+    color: #fff;
+}
+
+/**/
+.budget-feedback{
+    display: none;
+    padding: 1px 10px;
+}
+
+.showRed{
+    color: red;
+}
+.showGreen{
+    color: green;
+}
+.expensefeedback{
+    display: none;
+    padding: 1px 10px;
+}
+.showItem{
+    display: block;
+
+}
+.ex-content{
+    color:#fff;
+    font-size:20px;
+    text-transform:uppercase;
+}
+#action{
+    width:40%;
+    margin-bottom:20px;
+    line-height:280%;
+    height:20%;
+}
+.fa-trash{
+    font-size:20px;
+    margin-left:15px;
+    color:red;
+
+}
+.fa-edit{
+    font-size:20px;
+    color:whitesmoke;
+}
+
